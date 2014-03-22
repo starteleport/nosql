@@ -12,7 +12,7 @@ namespace Tweets.Models
         [Column(Name = "userName", DbType = "varchar(100)")]
         public string UserName { get; set; }
 
-        [Column(Name = "text", DbType = "varchar(1000)")]
+        [Column(Name = "text", DbType = "nvarchar(1000)")]
         public string Text { get; set; }
 
         [Column(Name = "createDate", DbType = "datetime")]
